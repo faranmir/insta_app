@@ -39,7 +39,7 @@ set_background('background.png')
 def display_login_page():
     # Load the Instagram logo
     try:
-        logo = Image.open("instagram_logo.png")  # Ensure you have a placeholder image named 'instagram_logo.png'
+        logo = Image.open("Instagram_logo.png")  # Ensure you have a placeholder image named 'instagram_logo.png'
         st.image(logo, width=150)
     except:
         st.write("Instagram Logo")
